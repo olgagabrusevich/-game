@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #004980;
+    font-family: sans-serif;
+    max-width: 1024px;
+}
+
+.containerBig{
+    width: 480px;
+    height: 459px;
+    background: #C2F5FF;
+    border-radius: 12px;
+    margin-top: 158px;
+    margin-bottom: 158px;
+    margin-left: 272px;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.text{
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #004980;
+    
+    width: 208px;
+    display: block;
+    text-align: center;
+    margin-left: 136px;
+}
+.containerSmall{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+
+}
+.level{
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #0080C1;
+    text-align: center;
+
+    width: 98px;
+    height: 98px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.button{
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    width: 246px;
+    height: 50px;
+    margin-left: 117px;
+
+    background: #7AC100;
+    border: 1px solid #7AC100;
+    border-radius: 12px;
+}
